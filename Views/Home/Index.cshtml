@@ -1,0 +1,11 @@
+﻿@model Listification.Models.ViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+        <p class="display-6">Use this endpoint to find index value
+        <a href="/listify/start/100/end/200/index/50">@Model.DomainName/listify/start/{start}/end/{end}/index/{index}</a>.
+    </p>
+</div>
